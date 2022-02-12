@@ -1,11 +1,14 @@
-n = int(input())
-s = input().split()
-arr = []
-for i in s:
-   arr.append(int(i))
-x1 = max(arr)
-for i in range(n):
-   if x1 == arr[i]:
-      arr[i] = 1
-x2 = max(arr)
-print(x1*x2)
+n = input().split()
+i = 0
+far = 0
+ans = 0
+while(1):
+    if i == len(n):
+       ans = 1
+       break
+    if i > far:
+        ans = 0
+        break
+    far = max(i + int(n[i]), far)
+    i += 1
+print(ans)
