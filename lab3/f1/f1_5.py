@@ -1,4 +1,5 @@
 def permut(n):
+    cnt = 0
     for i in range(len(n)):
         for j in range(len(n)-1):
             print(*n)
