@@ -1,4 +1,4 @@
-f = open("f4.txt", "w")
+f = open(f"f4.txt", "w")
 f.write("""To be, or not to be, that is the question:
 Whether 'tis nobler in the mind to suffer
 The slings and arrows of outrageous fortune,
@@ -11,6 +11,6 @@ Devoutly to be wish'd. To die, to sleep;
 To sleep, perchance to dream—ay, there's the rub:""")
 f.close()
 
-f = open('f4.txt', "r")
+f = open('f4.txt', "r") 
 print(len(f.readlines()))
 f.close()
