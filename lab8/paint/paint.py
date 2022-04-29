@@ -120,6 +120,7 @@ while not finished:
             if draw_mode:
                 startX = pos[0]
                 startY = pos[1]
+
             if startX > 0 and startX < color_pallete.get_width() and startY > 0 and startY < color_pallete.get_height():
                 # получает цвет с пикселя на который нажали
                 current_color = color_pallete.get_at(pos)

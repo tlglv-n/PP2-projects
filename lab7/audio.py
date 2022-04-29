@@ -6,7 +6,7 @@ playlist = ["m1.flac", "m2.flac"]
 pygame.mixer.music.load(playlist[0])
 pygame.mixer.music.play()
 
-image = pygame.image.load("C:/ZNBURG/courses/PP2/lab7/text.png")
+image = pygame.image.load("C:/ZNBURG/Freshman/PP2/lab7/text.png")
 cnt = 0
 done = False
 while not done:
